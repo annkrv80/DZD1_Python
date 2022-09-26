@@ -7,8 +7,8 @@ def clear(): return os.system('cls')
 clear()
 a = int(input('Введите день недели '))
 if 1 <= a <= 5:
-    print('Heт')
+    print('Рабочий день')
 elif a == 6 or a == 7:
-    print('Да')
+    print('Выходной день')
 elif a == 0 or a > 7:
     print('Надо бы знать что в неделе всего 7 дней')
