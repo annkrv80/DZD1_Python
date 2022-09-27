@@ -5,7 +5,7 @@ def clear(): return os.system('cls')
 
 
 clear()
-print('Начало')
+print('  ')
 x = None
 y = None
 z = None
@@ -13,10 +13,8 @@ for x in 0, 1:
     for y in 0, 1:
         for z in 0, 1:
            if (not (x or y or z)) == (not x and not y and not z):
-               print('True')
-               print(x, y, z)
+            print(x, y, z)
+            print('True')
            else:
-               print('false')
-               print(x,y,z)
-
-
+            print(x, y, z)
+            print('false')
